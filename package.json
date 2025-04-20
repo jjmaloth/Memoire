@@ -1,0 +1,21 @@
+{
+  "name": "memoire",
+  "version": "1.0.0",
+  "description": "**Memoire** is a decentralized application that enables users to create and store encrypted digital memories—such as images or messages—that remain locked until a specified future unlock date. Developed as a final project for the Encode EVM Bootcamp, Memoire integrates **EVM smart contracts**, **IPFS for decentralized storage**, and **Randamu for verifiable time-based encryption** to ensure privacy, data integrity, and delayed access.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "hardhat": "^2.23.0"
+  },
+  "dependencies": {
+    "@types/node": "^22.14.1",
+    "dotenv": "^16.5.0",
+    "viem": "^2.27.2"
+  }
+}
